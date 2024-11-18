@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="sorcut icon"
+        base href="https://unab.edu.co/wp-content/uploads/2022/09/cropped-favicon-naranja-32x32.png">
+    <title>UTime - Bienvenida</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <button class="welcome-button" onclick="window.location.href='login.html'">
+        INGRESE AQUÍ
+    </button>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Login</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Bienvenido a UTime</h2>
+        <form onsubmit="return handleLogin(event)">
+            <div class="form-group">
+                <label>Correo</label>
+                <input type="email" required>
+            </div>
+            <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" required>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <div class="links">
+            <a href="register.html">¿Necesitas una cuenta? Registrate aquí</a><br>
+            <a href="forgot-password.html">¿Has olvidado la contraseña?</a>
+        </div>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Acerca de Nosotros</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Acerca de Nosotros</h1>
+        <p>
+            Bienvenido a UTime,<br>
+            donde ofrecemos<br>
+            soluciones innovadoras<br>
+            para tus necesidades.<br>
+            Nuestro objetivo es<br>
+            proporcionar una<br>
+            experiencia excepcional a<br>
+            nuestros usuarios.
+        </p>
+        <button class="next-button" onclick="window.location.href='mission.html'">
+            Continuar
+        </button>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Nuestra Misión</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="content">
+        <div class="section">
+            <h2>Nuestra Misión</h2>
+            <p>
+                Brindar servicios de alta calidad<br>
+                que mejoren la vida de nuestros<br>
+                usuarios mediante tecnología<br>
+                accesible y fácil de usar.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>Nuestro Equipo</h2>
+            <p>
+                Contamos con un equipo de<br>
+                profesionales apasionados por la<br>
+                tecnología y el servicio al cliente,<br>
+                dedicados a hacer de nuestra<br>
+                aplicación la mejor opción para ti.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>Historia</h2>
+            <p>
+                Fundada en 2024, UnabCreditos<br>
+                ha crecido rápidamente y ha<br>
+                evolucionado para satisfacer las<br>
+                necesidades de nuestros<br>
+                usuarios. Estamos<br>
+                comprometidos con la mejora<br>
+                continua y la innovación.
+            </p>
+        </div>
+        <button class="next-button" onclick="window.location.href='credits.html'">
+            Continuar
+        </button>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Conoce tus Créditos</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Conoce tus Créditos</h1>
+        <p>
+            En este espacio conocerás<br>
+            los créditos obtenidos<br>
+            durante tus actividades en<br>
+            la universidad.
+        </p>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Registro</title>
+    <link rel="stylesheet" href="unabcreditos.js">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Registro</h2>
+        <form onsubmit="return handleRegister(event)">
+            <div class="form-group">
+                <label>Correo</label>
+                <input type="email" required>
+            </div>
+            <div class="form-group">
+                <label>Contraseña</label>
+                <input type="password" required>
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Olvidé mi Contraseña</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="forgot-container">
+        <h2>Olvidé mi Contraseña</h2>
+        <form onsubmit="return handleForgotPassword(event)">
+            <div class="form-group">
+                <label>Correo</label>
+                <input type="email" required>
+            </div>
+            <button type="submit">Enviar enlace de recuperación</button>
+        </form>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Error</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Error</h1>
+        <p>
+            Ha ocurrido un error. Por favor, intenta nuevamente más tarde.
+        </p>
+        <button onclick="window.location.href='index.html'">Volver al inicio</button>
+    </div>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UTime - Bienvenida</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a UTime</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="programas.html">Programas Académicos</a></li>
+            <li><a href="calendario.html">Calendario Académico</a></li>
+            <li><a href="admisiones.html">Admisiones</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="testimonios.html">Testimonios</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>&copy; 2024 UTime. Todos los derechos reservados.</p>
+    </footer>
+    <script src="unabcreditos.js"></script>
+</body>
+</html>

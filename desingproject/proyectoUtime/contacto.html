@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="sorcut icon"
+        base href="https://unab.edu.co/wp-content/uploads/2022/09/cropped-favicon-naranja-32x32.png">
+    <title>UTime - Contacto</title>
+    <link rel="stylesheet" href="unabcreditos.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <p>¿Tienes dudas o necesitas más información? ¡Estamos aquí para ayudarte!</p>
+    </header>
+
+    <div class="contacto-container">
+        <h2>¿Cómo podemos ayudarte?</h2>
+        <p>Si tienes alguna pregunta sobre nuestros servicios o eventos, no dudes en ponerte en contacto con nosotros.</p>
+
+        <div class="formulario-contacto">
+            <h3>Envíanos un mensaje</h3>
+            <form action="enviar-formulario.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <div class="informacion-contacto">
+            <h3>Información de Contacto</h3>
+            <p><strong>Dirección:</strong> Universidad Autónoma de Bucaramanga, Calle 55 #22-02, Bucaramanga, Colombia</p>
+            <p><strong>Teléfono:</strong> +57 7 123 4567</p>
+            <p><strong>Correo Electrónico:</strong> <a href="mailto:soporte@unabcreditos.com">soporte@unabcreditos.com</a></p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 8:00 AM - 5:00 PM</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 UnabCreditos. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="unabcreditos.js"></script>
+</body>
+</html>

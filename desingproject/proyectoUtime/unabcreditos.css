@@ -1,0 +1,356 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5; /* Color de fondo por defecto */
+}
+
+/* Estilo específico para unabcreditos.html */
+body.unabcreditos {
+    background-image: url('UNAB.JPEG'); /* Ruta a la imagen UNAB.JPEG */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.welcome-button, .next-button, button {
+    padding: 10px 20px;
+    background-color: #FF9800; /* Color naranja */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.welcome-button:hover, .next-button:hover, button:hover {
+    background-color: #FB8C00; /* Color naranja más oscuro */
+}
+
+.login-container, .register-container, .forgot-container, .content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: #FF9800; /* Color naranja */
+    text-decoration: none;
+}
+.eventos-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.evento {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.evento h3 {
+    color: #FF9800;
+    font-size: 1.5em;
+}
+
+.evento p {
+    font-size: 1.1em;
+}
+
+.evento button {
+    padding: 10px 20px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.evento button:hover {
+    background-color: #FB8C00;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+.contacto-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto h3 {
+    color: #FF9800;
+}
+
+.formulario-contacto .form-group {
+    margin-bottom: 15px;
+}
+
+.formulario-contacto label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulario-contacto button {
+    padding: 10px 20px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-contacto button:hover {
+    background-color: #FB8C00;
+}
+
+.informacion-contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.informacion-contacto h3 {
+    color: #FF9800;
+}
+
+.informacion-contacto p {
+    font-size: 1.1em;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+.registro-evento-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.registro-evento-container h2 {
+    color: #FF9800;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #FB8C00;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+/* Estilo para el inicio de sesión y la bienvenida */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo específico para la página de inicio */
+body.inicio {
+    background-image: url('UNAB.JPEG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Capa semitransparente para el texto sobre la imagen */
+.inicio-header .overlay {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa oscura semitransparente */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inicio-header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.inicio-header p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.welcome-button {
+    padding: 15px 30px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.welcome-button:hover {
+    background-color: #FB8C00;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+/* Estilo para las páginas generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Estilo para el contenedor del formulario */
+.login-container, .register-container, .forgot-password-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+/* Estilo para los formularios */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button.submit-button {
+    padding: 10px 20px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-button:hover {
+    background-color: #FB8C00;
+}
+
+.links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a {
+    color: #FF9800;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
